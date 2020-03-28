@@ -20,17 +20,17 @@ function inputFunct() {
 
 inputFunct();
 
+function removeTopNum() {
+        $('p').first().remove();
+};
 
-
-$('input').on('click',function() {
-    $('p').first().remove();
-});
 
 $('.plus').on('click',function() {
     var x = $('input').val();
     var xNum = parseInt(x);
     var x = $('input').val();
     topNumber += xNum;
+    removeTopNum();
     inputFunct();
     blackNums();
 });
@@ -40,6 +40,7 @@ $('.minus').on('click',function() {
     var xNum = parseInt(x);
     var x = $('input').val();
     topNumber -= xNum;
+    removeTopNum();
     inputFunct();
     redNums();
     blackNums();
@@ -60,7 +61,6 @@ function blackNums() {
        return; 
     }
 }
-/////////////////////////
 
 
 });
