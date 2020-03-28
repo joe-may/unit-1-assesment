@@ -1,0 +1,35 @@
+/* body {
+    margin:150px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .output {
+    
+    display: flex;
+    justify-content: center;
+    position: bottom;
+    margin-top: 125px;
+    margin-left:550px;
+    color: black;   
+}    */
+.calculator {
+    display: flex;
+    justify-content: center;
+    position: top;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.minus {
+    background-color:gray;
+}
+.plus {
+        
+    background-color: gray;
+}
+.top {
+    margin: -50px 500px -100px 585px;
+    position: fixed;
+}
